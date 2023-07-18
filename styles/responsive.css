@@ -1,0 +1,15 @@
+/* FOR MOBILE DEVICES */
+
+@media screen and (max-width: 576px) {
+    nav,
+    .nav-items-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+/* FOR TABLET DEVICES */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    
+}
