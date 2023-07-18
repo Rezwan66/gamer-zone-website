@@ -6,10 +6,21 @@
         flex-direction: column;
         gap: 20px;
     }
+    .banner-container{
+        flex-direction: column-reverse;
+        gap: 20px;
+        padding: 20px;
+    }
+    .banner-txt, .banner-img{
+        width: 100%;
+        text-align: center;
+    }
 }
 
 /* FOR TABLET DEVICES */
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
-    
+    .banner-container{
+        padding: 20px;
+    }
 }
