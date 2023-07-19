@@ -265,10 +265,10 @@ nav {
 
 .categories-container {
     border: 1px solid red;
-    max-width: 1280;
+    max-width: 1400px;
     margin: 150px auto;
-    padding: 80px;
-    gap: 20px;
+    padding: 100px 0;
+    gap: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
