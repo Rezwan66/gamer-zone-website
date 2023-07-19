@@ -16,6 +16,10 @@
         /* padding: 20px; */
     }
 
+    .banner-txt{
+        padding: 40px 20px;
+    }
+
     .banner-txt,
     .banner-img {
         width: 100%;
@@ -48,6 +52,10 @@
     .box>p,
     .play-instantly-txt p {
         font-size: 0.625rem;
+    }
+
+    .funny-videos-container {
+        margin: 50px auto 50px;
     }
 
     .box>p {
