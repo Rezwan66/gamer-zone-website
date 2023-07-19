@@ -159,6 +159,30 @@
         padding: 20px;
     }
 
+    .banner-txt,
+    .banner-img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-txt h3 {
+        font-size: 2rem;
+    }
+
+    .banner-txt h1 {
+        font-size: 4rem;
+    }
+
+    .banner-txt p {
+        font-size: 0.8rem;
+    }
+
+    .btn-sign-in,
+    .btn-go-rogue {
+        padding: 10px 20px;
+        font-size: 0.8rem;
+    }
+
     .box-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
