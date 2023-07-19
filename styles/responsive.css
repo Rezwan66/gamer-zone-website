@@ -35,7 +35,7 @@
     }
 
     .banner-txt p {
-        font-size: 0.625rem;
+        font-size: 0.8rem;
     }
 
     .btn-sign-in,
@@ -51,7 +51,7 @@
     .funny-videos-container>p,
     .box>p,
     .play-instantly-txt p {
-        font-size: 0.625rem;
+        font-size: 0.8rem;
     }
 
     .funny-videos-container {
@@ -71,7 +71,7 @@
     }
 
     .box-overlay{
-        height: 98%;
+        height: 97%;
     }
 
     .play-instantly-container {
@@ -82,6 +82,7 @@
     .play-instantly-txt {
         width: 100%;
         text-align: center;
+        max-width: 240px;
     }
 
     .play-instantly-txt h2 {
@@ -202,7 +203,7 @@
     }
 
     .box-overlay{
-        height: 92%;
+        height: 91%;
     }
 
     .play-instantly-container {

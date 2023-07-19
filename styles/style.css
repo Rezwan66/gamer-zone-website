@@ -260,8 +260,8 @@ nav {
 
 .play-instantly-container {
     /* border: 1px solid red; */
-    max-width: 1150px;
-    margin: 50px 120px 0 auto;
+    max-width: 1280px;
+    margin: 100px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
