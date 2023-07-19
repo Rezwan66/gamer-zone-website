@@ -70,6 +70,10 @@
         width: 100%;
     }
 
+    .box-overlay{
+        height: 98%;
+    }
+
     .play-instantly-container {
         margin: 0 auto;
         padding: 20px;
@@ -195,6 +199,10 @@
 
     .box>p {
         text-align: center;
+    }
+
+    .box-overlay{
+        height: 92%;
     }
 
     .play-instantly-container {
