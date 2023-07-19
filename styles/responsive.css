@@ -2,18 +2,51 @@
 
 @media screen and (max-width: 576px) {
     nav,
-    .nav-items-container{
+    .nav-items-container,
+    .box-container{
         flex-direction: column;
         gap: 20px;
     }
     .banner-container{
         flex-direction: column-reverse;
         gap: 20px;
-        padding: 20px;
+        /* padding: 20px; */
     }
     .banner-txt, .banner-img{
         width: 100%;
         text-align: center;
+    }
+
+    .banner-txt h3 {
+        font-size: 1.5rem;
+    }
+    
+    .banner-txt h1 {
+        font-size: 3rem;
+    }
+    
+    .banner-txt p {
+        font-size: 0.625rem;
+    }
+
+    .btn-sign-in, .btn-go-rogue {
+        padding: 10px 20px;
+        font-size: 0.625rem;
+    }
+
+    .funny-videos-container h3 {
+        font-size: 1.3rem;
+    }
+
+    .funny-videos-container>p, .box>p {
+        font-size: 0.625rem;
+    }
+
+    .box-container{
+        padding: 20px;
+    }
+    .box {
+        width: 100%;
     }
 }
 
@@ -21,6 +54,9 @@
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
     .banner-container{
+        padding: 20px;
+    }
+    .banner-txt{
         padding: 20px;
     }
 }

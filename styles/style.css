@@ -90,7 +90,7 @@ nav {
 
 .banner-txt {
     /* border: 1px solid blue; */
-    padding: 100px 0;
+    padding: 100px 50px;
     width: 50%;
     text-align: left;
     background-image: url("../images/Group\ 14.png");
@@ -160,26 +160,64 @@ nav {
 
 /* FUNNY VIDEOS SECTION START */
 
-.funny-videos-container{
-    border: 1px solid red;
-    min-height: 150px;
+.funny-videos-container {
+    /* border: 1px solid red; */
     max-width: 1280px;
     margin: 50px auto 0;
     text-align: center;
 }
 
-.box-container{
-    border: 1px solid green;
+.funny-videos-container h3 {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.funny-videos-container span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.funny-videos-container>p {
+    color: #534C64;
+    font-size: 1.125rem;
+    margin-bottom: 20px;
+}
+
+.box-container {
+    /* border: 1px solid green; */
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
-.box{
+.box {
+    /* border: 1px solid blue; */
     width: 25%;
+    border-radius: 16px;
 }
 
-.box img{
-    max-width: 90%;
+.box img {
+    max-width: 100%;
+}
+
+.box>p {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-align: left;
 }
 
 /* FUNNY VIDEOS SECTION END */
+
+
+/* PLAY INSTANTLY SECTION START */
+
+.play-instantly-container{
+    border: 1px solid red;
+}
+
+/* PLAY INSTANTLY SECTION END */
