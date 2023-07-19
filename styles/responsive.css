@@ -109,6 +109,35 @@
         width: 50%;
     }
 
+    .footer-items-container {
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+
+    .footer-items-container ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-socials{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+        font-size: 1.5rem;
+    }
+
+    .footer-legal-container ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 0.625rem;
+    }
+
+    .footer-copyright{
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.625rem;
+    }
+
 }
 
 /* FOR TABLET DEVICES */
